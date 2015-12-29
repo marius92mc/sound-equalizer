@@ -16,7 +16,7 @@ def plotSomething():
     uiplot.qwtPlot.replot()
     SR.newAudio=False
     if len(ys) > 0 and ys[0] > gBigValue: 
-        print time.strftime("%I:%M:%S %p  %B %d")
+        print time.strftime("%I:%M:%S %p  %B %d"), "    ", int(ys[0])
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
@@ -26,7 +26,8 @@ if __name__ == "__main__":
             print "Not an integer value...\nTerminated."
             sys.exit()
     print "Disturbances greater than ", gBigValue, "at time..."
-    
+    print "\n           Time               Value"
+    print "------------------------      -----" 
     app = QtGui.QApplication(sys.argv)
     
     win_plot = ui_plot.QtGui.QMainWindow()
