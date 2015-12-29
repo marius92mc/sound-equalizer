@@ -5,7 +5,6 @@
     $ python real_time_audio.py
 
 <br> 
-<br> 
 ###Installing dependencies
 brew install portaudio
 
