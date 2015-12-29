@@ -1,7 +1,10 @@
 # Sound_Recorder
 
 
-### Installing dependencies
+###Run
+    $ python real_time_audio.py
+
+###Installing dependencies
 brew install portaudio
 
 PyAudio-0.2.9 <br> 
