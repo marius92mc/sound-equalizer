@@ -26,7 +26,7 @@ PyQt4
 http://www.noktec.be/python/how-to-install-pyqt4-on-osx
 
 $ sudo port install qt4-mac <br>
-$ sudo port install py-pyqt4
+$ sudo port install py-pyqt <br>4
 $ brew install homebrew/python/numpy
 
 
