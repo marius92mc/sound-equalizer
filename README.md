@@ -2,10 +2,11 @@
 
 
 ###Run
-    $ python real_time_audio.py <value> 
+    $ python real_time_audio.py <value> <pauseDuration> <pauseValue> 
 
-    Print time of disturbances that are greater than <value>.
-    <value> is optional 
+    Print time of <b>disturbances</b> that are greater than <value> 
+    and time of <b>pauses</b> for more than <pauseDuration> with values lower than <pauseValue>. 
+    All parameters all optional.
 
 <br> 
 ###Installing dependencies
