@@ -1,4 +1,4 @@
-# Sound_Recorder
+# Sound Equalizer
 
 
 ###Run
